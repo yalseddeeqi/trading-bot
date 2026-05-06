@@ -1,0 +1,34 @@
+2026-05-04 05:58:37,302 - __main__ - ERROR - خطأ في البوت:
+Traceback (most recent call last):
+  File "/Users/yousefalseddeeqi/Documents/Claude/Projects/trading/main.py", line 69, in main
+    bot = StockBot()
+  File "/Users/yousefalseddeeqi/Documents/Claude/Projects/trading/telegram_bot.py", line 39, in __init__
+    self._setup_scheduled_jobs()
+  File "/Users/yousefalseddeeqi/Documents/Claude/Projects/trading/telegram_bot.py", line 56, in _setup_scheduled_jobs
+    self.scheduler.add_job(
+  File "/Users/yousefalseddeeqi/Library/Python/3.9/lib/python/site-packages/apscheduler/schedulers/base.py", line 501, in add_job
+    job = Job(self, **job_kwargs)
+  File "/Users/yousefalseddeeqi/Library/Python/3.9/lib/python/site-packages/apscheduler/job.py", line 65, in __init__
+    self._modify(id=id or uuid4().hex, **kwargs)
+  File "/Users/yousefalseddeeqi/Library/Python/3.9/lib/python/site-packages/apscheduler/job.py", line 198, in _modify
+    check_callable_args(func, args, kwargs)
+  File "/Users/yousefalseddeeqi/Library/Python/3.9/lib/python/site-packages/apscheduler/util.py", line 439, in check_callable_args
+    raise ValueError(
+ValueError: The following arguments have not been supplied: context
+2026-05-06 03:45:26,659 - __main__ - ERROR - خطأ في البوت:
+Traceback (most recent call last):
+  File "/Users/yousefalseddeeqi/Documents/Claude/Projects/trading/main.py", line 69, in main
+    bot = StockBot()
+  File "/Users/yousefalseddeeqi/Documents/Claude/Projects/trading/telegram_bot.py", line 39, in __init__
+    self._setup_scheduled_jobs()
+  File "/Users/yousefalseddeeqi/Documents/Claude/Projects/trading/telegram_bot.py", line 56, in _setup_scheduled_jobs
+    self.scheduler.add_job(
+  File "/Users/yousefalseddeeqi/Library/Python/3.9/lib/python/site-packages/apscheduler/schedulers/base.py", line 501, in add_job
+    job = Job(self, **job_kwargs)
+  File "/Users/yousefalseddeeqi/Library/Python/3.9/lib/python/site-packages/apscheduler/job.py", line 65, in __init__
+    self._modify(id=id or uuid4().hex, **kwargs)
+  File "/Users/yousefalseddeeqi/Library/Python/3.9/lib/python/site-packages/apscheduler/job.py", line 198, in _modify
+    check_callable_args(func, args, kwargs)
+  File "/Users/yousefalseddeeqi/Library/Python/3.9/lib/python/site-packages/apscheduler/util.py", line 439, in check_callable_args
+    raise ValueError(
+ValueError: The following arguments have not been supplied: context
